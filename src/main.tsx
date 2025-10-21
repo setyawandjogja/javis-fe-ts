@@ -1,12 +1,20 @@
+// main.tsx
+import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import "swiper/swiper-bundle.css";
+import "flatpickr/dist/flatpickr.css";
+import "./index.css"; 
+
 import App from "./App";
-import { HelmetProvider } from "react-helmet-async";
-import "./index.css";
+import { AppWrapper } from "./components/common/PageMeta";
+import { ThemeProvider } from "./context/ThemeContext";
 
-const rootElement = document.getElementById("root") as HTMLElement;
-
-createRoot(rootElement).render(
-  <HelmetProvider>
-    <App />
-  </HelmetProvider>
+createRoot(document.getElementById("root") as HTMLElement).render(
+  <StrictMode>
+    <ThemeProvider>
+      <AppWrapper>
+        <App />
+      </AppWrapper>
+    </ThemeProvider>
+  </StrictMode>
 );
