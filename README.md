@@ -123,3 +123,25 @@ Gunakan cookie token untuk autentikasi.
          | 7. Frontend renders Dashboard               |
          |                                               |
 ```
+
+ **Berikut tampilan screen shoot UI:**
+
+
+![alt text](image-6.png)
+
+![alt text](image.png)
+
+
+![alt text](image-1.png)
+
+Dark Mode
+![alt text](image-2.png)
+
+Light Mode
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
+
